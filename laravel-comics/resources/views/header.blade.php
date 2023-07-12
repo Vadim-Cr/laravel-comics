@@ -1,9 +1,7 @@
-@extends('layouts.welcome')
 
-@section('content')
+<header>
+    <h1 class="container"> 
+        Hello World from header
+    </h1>
+</header>
 
-<h1> 
-    Hello World from header
-</h1>
-
-@endsection

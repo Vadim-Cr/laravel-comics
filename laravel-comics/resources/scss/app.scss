@@ -3,7 +3,23 @@
 body {
     background-color: darkslategrey;
 
-    h1 {
+    h1,
+    h2 {
         color: white;
     }
 }
+
+header,
+footer {
+    text-align: center;
+    background-color: #0182F9;
+}
+
+ul {
+    list-style: none;
+}
+
+$primary: #0182F9;
+$secondary: #303030;
+$tertiary: #1C1C1C;
+$fontPrimary: #747880;
