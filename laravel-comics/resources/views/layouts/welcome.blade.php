@@ -7,20 +7,15 @@
 
     <title>Laravel</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <!-- Styles -->
-    @vite('resources/js/app.js')
 
 </head>
 
 <body>
 
-    <main class="bg-light">
-    <h1>
-        hello world
-    </h1>
+    <main class="bg-dark container">
+    <div>
+        @yield('content')
+    </div>
     </main>
 
 </body>
